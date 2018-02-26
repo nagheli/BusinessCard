@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.ioana.businesscard.MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/image01"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimension80"
+            android:layout_marginTop="@dimen/dimension10"
+            android:src="@drawable/romania" />
+
+        <ImageView
+            android:id="@+id/image0"
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:layout_marginTop="@dimen/dimension20"
+            android:alpha=".90"
+            android:src="@drawable/ro4" />
+
+        <ImageView
+            android:id="@+id/image00"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimension225"
+            android:alpha=".90"
+            android:src="@drawable/ro8" />
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="@dimen/dimension35"
+        android:layout_height="@dimen/dimension20"
+        android:layout_alignTop="@id/text2"
+        android:paddingLeft="@dimen/dimension5"
+        android:paddingTop="@dimen/dimension2"
+        android:src="@drawable/globe" />
+
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/text3"
+        android:autoLink="web"
+        android:paddingLeft="@dimen/dimension40"
+        android:paddingTop="@dimen/dimension2"
+        android:text="@string/website"
+        android:textAppearance="@android:style/TextAppearance.Small"
+        android:textColorLink="@color/textColor"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="@dimen/dimension35"
+        android:layout_height="@dimen/dimension20"
+        android:layout_alignTop="@+id/text3"
+        android:paddingLeft="@dimen/dimension5"
+        android:paddingTop="@dimen/dimension2"
+        android:src="@drawable/logop" />
+
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/text4"
+        android:autoLink="phone"
+        android:paddingLeft="@dimen/dimension40"
+        android:paddingTop="@dimen/dimension2"
+        android:text="@string/telephoneNumber"
+        android:textAppearance="@android:style/TextAppearance.Small"
+        android:textColorLink="@color/textColor"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="@dimen/dimension20"
+        android:paddingLeft="@dimen/dimension40"
+        android:paddingTop="@dimen/dimension2"
+        android:text="@string/address"
+        android:textAppearance="@android:style/TextAppearance.Small"
+        android:textColor="@color/textColor"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/image3"
+        android:layout_width="@dimen/dimension35"
+        android:layout_height="@dimen/dimension20"
+        android:layout_alignTop="@id/text4"
+        android:paddingLeft="@dimen/dimension5"
+        android:paddingTop="@dimen/dimension2"
+        android:src="@drawable/pin" />
+
+</RelativeLayout>
+

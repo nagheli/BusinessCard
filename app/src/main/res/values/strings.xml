@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BusinessCard</string>
+    <string name="address">Bd. Dinicu Golescu 38|Bucharest 1 Romania</string>
+    <string name="website">www.romaniatourism.com</string>
+    <string name="telephoneNumber">(+4) 021 305.55.00</string>
+    <string name="welcome">Welcome to Romania Tourism !</string>
+</resources>
