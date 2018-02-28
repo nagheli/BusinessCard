@@ -100,7 +100,9 @@
         android:id="@+id/image3"
         android:layout_width="@dimen/dimension35"
         android:layout_height="@dimen/dimension20"
-        android:layout_alignTop="@id/text4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/text3"
         android:paddingLeft="@dimen/dimension5"
         android:paddingTop="@dimen/dimension2"
         android:src="@drawable/pin" />
